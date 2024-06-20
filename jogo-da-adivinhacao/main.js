@@ -17,7 +17,7 @@ function handleTryClick (event) {
     event.preventDefault()
 
     const inputNumber = document.querySelector("#inputNumber")
-
+    //pendente melhorias na aplicação, aceitar somente números de 0 a 10 no input e etc...
     if(Number(inputNumber.value) == randomNumber) {
         toggleScreen()
 
